@@ -13,7 +13,7 @@ This project provides an API for analyzing COVID-19 data using Apache Spark and 
 1. Clone this repositor:
 
 ```bash
-git clone https://github.com/your_username/covid-analysis-api.git
+git clone https://github.com/mohan-333/spark_assignment.git
 ```
 
 2. Install the required dependencies:
