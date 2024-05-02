@@ -19,7 +19,24 @@ git clone https://github.com/mohan-333/spark_assignment.git
 2. Install the required dependencies:
 
 ```bash
-pip install pyspark
+pip install -r requirements.txt
+```
+
+## Project Structure
+
+```css
+spark-assignment/
+├── src/
+│   ├── main.py
+│   ├── loader.py
+│   └── proc.py
+├── data/
+│   ├── input/
+│   └── output/
+├── logs/
+│   └── log.txt
+├── README.md
+└── requirements.txt
 ```
 
 ## Usage
@@ -33,7 +50,7 @@ cd spark_assignment
 2. Run the server
 
 ```bash
-python main.py
+python3 src/main.py 2>&1 | tee logs/log.txt
 ```
 
 3. Once the server is running, you can access the API endpoints through your web browser or by sending HTTP GET requests to `http://localhost:8000`.
