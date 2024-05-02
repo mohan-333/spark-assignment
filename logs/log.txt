@@ -1,0 +1,46 @@
+24/05/02 16:25:19 WARN Utils: Your hostname, Mohans-MacBook-Air.local resolves to a loopback address: 127.0.0.1; using 10.40.41.192 instead (on interface en0)
+24/05/02 16:25:19 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+24/05/02 16:25:23 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+24/05/02 16:25:45 WARN SparkStringUtils: Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.sql.debug.maxToStringFields'.
+127.0.0.1 - - [02/May/2024 16:31:38] "GET / HTTP/1.1" 200 -
+
+[Stage 0:>                                                          (0 + 0) / 4]
+
+[Stage 0:>                                                          (0 + 4) / 4]
+
+                                                                                
+
+[Stage 1:>                                                          (0 + 4) / 4]
+
+                                                                                
+127.0.0.1 - - [02/May/2024 16:32:01] "GET /mostAffected HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2024 16:32:01] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2024 16:33:52] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2024 16:33:56] "GET /mostAffected HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2024 16:33:56] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2024 16:34:04] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2024 16:34:08] "GET /leastAffected HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2024 16:34:08] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2024 16:34:19] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2024 16:34:23] "GET /highestCases HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2024 16:34:23] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2024 16:34:34] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2024 16:34:37] "GET /lowestCases HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2024 16:34:37] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2024 16:34:54] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2024 16:34:56] "GET /totalCases HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2024 16:34:56] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2024 16:35:12] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2024 16:35:15] "GET /mostEfficient HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2024 16:35:16] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2024 16:35:23] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2024 16:35:26] "GET /leastEfficient HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2024 16:35:26] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2024 16:35:48] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2024 16:35:52] "GET /highestCritical HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2024 16:35:52] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2024 16:35:56] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2024 16:35:58] "GET /lowestCritical HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2024 16:35:59] "GET /favicon.ico HTTP/1.1" 200 -
